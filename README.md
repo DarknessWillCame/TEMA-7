@@ -40,8 +40,11 @@ with open('Tema7_1_text.txt', 'r', encoding='utf-8') as file:
     often_word = get_ofter_word(splitted_content)
     print('Всего слов:', len(splitted_content))
     print(f'Чаще всего встречается слово "{often_word[0]}". Оно встречается {often_word[1]} раз(а)')
+    
 Результат.
-Результат задания 1 Результат задания 1
+![Tema7_1](https://github.com/DarknessWillCame/TEMA-7/assets/46960566/2566f6c1-4622-472c-9573-6417770838ca)
+
+Результат задания 1 
 
 Выводы
 После чтения текста удалил знаки пунктуации
@@ -59,8 +62,12 @@ with open('./Tema7_2_text.txt', 'a') as file:
 
 with open('./Tema7_2_text.txt', 'r') as file:
     print('Учёт расходов:\n', file.read())
+    
 Результат.
-Результат задания 2 Результат задания 2
+![Tema7_2](https://github.com/DarknessWillCame/TEMA-7/assets/46960566/d8e17c43-5324-406f-952d-3f694d4381e1)
+
+Результат задания 2 
+
 
 Выводы
 С помощью режима добавления (a) вносится новая информация от пользователя
@@ -84,7 +91,10 @@ with open('./Tema7_3_input.txt', 'r') as file:
     print(f'{count_letters} letters')
     print(f'{count_words} letters')
     print(f'{len(lines)} lines')
+    
 Результат.
+![Tema7_3](https://github.com/DarknessWillCame/TEMA-7/assets/46960566/265cb41c-a1f8-4bb6-8a8b-3396d321971e)
+
 Результат задания 3
 
 Выводы
@@ -110,7 +120,10 @@ with open('./Tema7_4_input.txt', 'r') as file:
             result += word
 
     print(result)
+    
 Результат.
+![Tema7_4](https://github.com/DarknessWillCame/TEMA-7/assets/46960566/659872ae-b8ab-46af-981a-f1d4848b3fac)
+
 Результат задания 4
 
 Выводы
@@ -132,7 +145,10 @@ with open('./Tema7_5_A.txt', 'w') as file:
 
 with open('./Tema7_5_B.txt', 'w') as file:
     file.write(content_A)
+    
 Результат.
+![Tema7_5](https://github.com/DarknessWillCame/TEMA-7/assets/46960566/d5d7454e-33a5-4e02-bf97-fb56a9443e49)
+
 Результат задания 5
 
 Выводы
